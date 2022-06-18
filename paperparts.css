@@ -1,0 +1,138 @@
+.parts{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    transition: 5s;
+box-shadow: 0 0 20px 2px(rgb));
+}
+.paper1,.paper2,.ms{
+    height:300px;
+    width:300px;
+    background-color:#42C2FF#85F4FF#B8FFF9;
+    margin: 80px;
+    margin-top: 100px;
+    border-radius: 20%;
+
+}
+.ms{
+    background-color:#DFF6FF;
+}
+.paper2{
+    background-color:#8FD6E1;
+}
+.paper1{
+    background-color:#9AD0EC;
+   
+}
+a{color:black;
+    text-decoration: none;
+    font-family: monospace;
+
+}
+.paper1 a{
+    position: relative;
+    bottom:-120px;
+    left:-15px;
+    font-size:1.5em ;
+}
+.paper2 a{
+    position: relative;
+    bottom:-120px;
+    left:-15px;
+    font-size:1.5em ;
+}
+.ms a{
+    position: relative;
+    bottom:-120px;
+    left:-25px;
+    font-size:1.5em ;
+}
+.mcq{
+    height: 130px;
+    position: relative;
+    top:70px;
+    left:95px;
+}
+.writing{
+    height: 130px;
+    position: relative;
+    top:70px;
+    left:95px;
+}
+.marking{
+    height: 130px;
+    position: relative;
+    top:70px;
+    left:95px;
+}
+.mcq:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.writing:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.marking:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.paper1 a::after{
+    content: "";
+    position:absolute;
+    background-color:#3ea6da;
+    height:3px;
+    width:0;
+    left:0;
+    bottom:-10;
+    transition: 0.3s;
+}
+.paper2 a::after{
+    content: "";
+    position:absolute;
+    background-color:#c3e9ef;
+    height:3px;
+    width:0;
+    left:0;
+    bottom:-10;
+    transition: 0.3s;
+}
+.ms a::after{
+    content: "";
+    position:absolute;
+    background-color:#80dbff;
+    height:3px;
+    width:0;
+    left:0;
+    bottom:-10;
+    transition: 0.3s;
+}
+
+a:hover::after{
+    width:100%;
+}
+.button{
+   height: 50px;
+   width:100px;
+   background-color:#ff9999;
+   border-radius: 40%;
+   margin:80px;
+   
+    
+}
+.button a{
+    color:white;
+    font-size: 1.4em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 200;
+    position:relative;
+    top:13px;
+    left:15px;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+    font-family: monospace;
+}
