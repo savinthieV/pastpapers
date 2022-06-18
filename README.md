@@ -1,2 +1,0 @@
-# pastpapers
-myapp
